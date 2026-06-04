@@ -80,7 +80,10 @@ const Hero = ({
   };
 
   return (
-    <section className="relative bg-stone-50 overflow-hidden pt-20 pb-16 md:pt-28 md:pb-24">
+    <section
+      id="home"
+      className="relative bg-stone-50 overflow-hidden pt-20 pb-16 md:pt-28 md:pb-24"
+    >
       <div className="absolute inset-0 -z-10">
         <div className="absolute top-0 right-0 -translate-y-1/2 translate-x-1/2 w-96 h-96 bg-stone-100 rounded-full blur-3xl opacity-40" />
         <div className="absolute bottom-0 left-0 translate-y-1/2 -translate-x-1/2 w-96 h-96 bg-stone-100 rounded-full blur-3xl opacity-40" />
